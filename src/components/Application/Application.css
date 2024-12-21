@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.app-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    /* min-height: 80vw; */
+   flex-shrink: 1;
+    margin :5rem 10rem;
+   
+   /* justify-content: start; */
+
+   flex-wrap: wrap;
+   /* background: white; */
+   height: 60rem;
+   border-radius: 20px;
+    
+
+}
+
+.heading-text{
+    z-index: 2;
+    font-size: 2rem;
+    height: 1rem;
+    width: 100%;
+    /* margin:5rem 10rem ; */
+    margin-bottom: 0;
+    font-weight: bold ;
+    font-family: "Nunito", sans-serif;
+}
+
+.para{
+    z-index: 2;
+    width: 100%;
+    font-size: 2.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: green;
+}
+
+.card .img img{
+    height: 100%;
+    width: 100%;
+    
+}
+.card .card-content{
+    
+    position: absolute;
+    background-color: #cfff9f;
+    bottom: 0%;
+    height: 100%;
+    width: 100%;
+    transform: translateY(45%);
+    border-radius: 20px;
+    
+}
+
+.card-content .heading{
+    font-size: 2.2rem;
+    margin:1.5rem;
+}
+.card-content .tagline{
+    font-size: 1.5rem;
+    margin:1.5rem;
+}
+
+.evs-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card, .sub-card {
+    position: relative;
+    background: #cfff9f;
+    margin: 4rem 10rem 4rem 1rem;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+    height: 40rem;
+    width: 30rem;
+    
+}
+
+.sub-card {
+    padding: 2rem;
+    height: 30rem;
+    width: 30rem;
+}
+
+.app-container .cards{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.sub-card .app-btn{
+    position: absolute;
+    z-index: 1;
+    transform: translateX(45%) translateY(405%);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    width: rem;
+    height: 5rem;
+    background: #000;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.8rem;
+    
+    
+}
+.card .app-btn{
+    position: absolute;
+    z-index: 1;
+    transform: translateX(-10%) translateY(335%);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:15rem 5rem;
+    width: 25rem;
+    height: 5rem;
+    background: #000;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.8rem;
+    
+    
+}
+
+
+.sub-appscontainer{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    z-index: 3;
+    bottom: 12.5rem;
+    right: 2.5rem;
+}
+
+.sub-appscontainer a{
+    text-decoration: none;
+}
+
+.sub-appscontainer .app-btn{
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 7rem;
+    width: 25rem;
+    background: green;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.8rem;
+    
+}
+
+
+.header{
+    font-size: 4rem;
+}
+
+
+.subsub-appscontainer{
+    margin-top: 20rem;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.subsub-appscontainer .sub-app-btn{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 5rem;
+    width: 25rem;
+    height: 6rem;
+    background: green;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.8rem;
+    margin-left: 20px;
+    
+    text-decoration: none;
+    
+}
+ a{
+    text-decoration: none;
+}
+
+
+.container-env{
+    display: flex;
+    gap: 15rem;
+    flex-direction: column;
+
+}
+
+
+/* Subapplication */
+.sub-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* button */
+
+.button-71 {
+    background-color: #046013;
+    border: 0;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    outline: 0;
+    padding: 16px 21px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-71:before {
+    background-color: initial;
+    /* background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%); */
+    border-radius: 125px;
+    content: "";
+    height: 50%;
+    left: 4%;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    transition: all .3s;
+    width: 92%;
+  }
+  
+  .button-71:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    /* transform: scale(1.05); */
+  }
+  
+  @media (min-width: 768px) {
+    .button-71 {
+      padding: 16px 48px;
+    }
+  }
+
+  

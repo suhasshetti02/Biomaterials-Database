@@ -1,0 +1,177 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+
+.container-mat{
+    /* background: #fff; */
+    margin: 2rem 10rem;
+    
+}
+
+.mat-card{
+    background:#fff;
+    margin-top: 5rem;
+    color: black;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 3rem;
+
+}
+
+.mat-head{
+    
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2dc20f;
+}
+
+.header{
+    font-size: 2.3rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+.headers{
+    font-size: 1.8rem;
+    margin: 0.7rem 0;
+}
+
+.mat-img{
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 10%;
+    /* margin-left: 19rem; */
+    background: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    overflow: hidden;
+
+}
+
+.mat-img .img{
+    max-height: 300px;
+}
+
+.mat-body{
+    font-size: 2rem;
+    margin-left: 10rem;
+    font-family: "Nunito", sans-serif;
+    
+}
+.mat-body p{
+    margin: 1.2rem;
+}
+
+.mat-content{
+    display: flex;
+    margin: 2rem 0rem;
+}
+
+
+
+table,tr,td,th{
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 2rem;
+}
+
+table{
+    margin: 3rem;
+}
+
+.mat-card .properties{
+    display: flex;
+    margin: 5rem;
+    padding: 4rem;
+    /* align-items: center; */
+    justify-content: start;
+    flex-direction: column;
+    background-color: #c2f0b9;
+    border-radius: 10px;
+}
+
+
+
+    
+
+.content pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 1.5rem;
+
+    /* overflow-x: auto; */
+}
+
+.partitions .part-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    width: 50%;
+    min-height: 42vw;
+    margin-left: 3rem;
+    
+}
+
+
+.brief-content{
+
+    font-size: 1.8rem;
+
+}
+.brief-content .mat-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: #fff;
+    margin : 2rem;
+    color: black;
+    width: 30rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+/* card */
+.sub-card .mat-btn{
+    position: absolute;
+    z-index: 1;
+    transform: translateY(-135%);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:15rem 5rem;
+    width: 20rem;
+    height: 5rem;
+    background: #000;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.8rem;
+    
+    
+}
+
+.sub-card{
+    position: relative;
+    display: block;
+    height: 30rem;
+    width: 35rem;
+    background: #cfff9f;
+    margin: 0rem 8rem 4rem rem;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.cards{
+    display: flex;
+}

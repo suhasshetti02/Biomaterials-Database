@@ -1,0 +1,45 @@
+{
+  "name": "bio-mat-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "axios": "^1.7.7",
+    "events": "^3.3.0",
+    "express": "^4.21.2",
+    "gh-pages": "^6.2.0",
+    "mongoose": "^8.8.3",
+    "path-browserify": "^1.0.1",
+    "react": "^18.3.1",
+    "react-awesome-button": "^7.0.5",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.0.2",
+    "react-scroll": "^1.9.0",
+    "react-slick": "^0.30.2",
+    "react-type-animation": "^3.2.0",
+    "safe-buffer": "^5.2.1",
+    "scroll": "^3.0.1",
+    "slick-carousel": "^1.8.1",
+    "url-polyfill": "^1.1.12"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.11.0",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "vite": "^5.4.10"
+  }
+}

@@ -1,0 +1,103 @@
+/* body{text-align: center;} */
+
+.contactus{
+    margin-left: 10rem;
+    margin-top: 5rem;
+    width: 80%;
+    height: 55rem;
+    background: #864ef2;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+}
+
+.contactus .image{
+    width: 50%;
+}
+.contactus form{
+    position: absolute;
+    top: 50%;
+  left: 45%;
+  transform: translate(50%,-50%);
+    display: flex;
+    /* align-items: center; */
+    justify-content: left;
+flex-direction: column;
+    width: 35rem;
+    height: 43rem;
+    background: #fff;
+    padding: 5rem;
+    border-radius: 20px;
+}
+
+.lable{
+    font-size: 1.8rem;
+    margin-top: 0.7rem;
+}
+
+.name-box input , .email-box input{
+    outline:none;
+    border:none;
+    border-bottom: 0.5px solid black;
+    width: 100%;
+    padding: 0.3rem;
+}
+
+.content-box textarea{
+    width: 100%;
+    height: 10rem;
+    border: 0.3px solid black;
+    border-radius: 10px;
+    padding: 0.9rem;
+}
+
+.button input{
+    width: 20rem;
+    height: 4rem;
+    margin-left:2rem ;
+    margin-top: 1rem;
+    background: #000000d8;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.8rem;
+}
+
+.headding{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image img{
+    position: relative;
+    width: 380px;
+    height: 300px;
+    margin-left: 20rem;
+    margin-top: 4rem;
+    animation: animation 4s ease-in-out 1s infinite alternate;
+}
+
+@keyframes animation {
+    0%   {top:0px;}
+    50%  {top:-30px;}
+    100% {top:0px;}
+  }
+
+  .message{
+    position: absolute;
+    bottom: 0;
+  left: 56%;
+  transform: translate(50%,-50%);
+  }
+
+  .message p{
+    font-size: 1.8rem;
+    color: #fff;
+    text-shadow: none;
+  }
